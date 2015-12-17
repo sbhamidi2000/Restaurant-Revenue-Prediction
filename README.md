@@ -23,9 +23,7 @@ RMSE=1n∑i=1n(yi−y^i)2−−−−−−−−−−−−√,
 where y hat is the predicted value and y is the original value.
 
 Submission File
-
 For every restaurant in the dataset, submission files should contain two columns: Id and Prediction. 
-
 The file should contain a header and have the following format:
 
 Id,Prediction
@@ -38,4 +36,5 @@ etc.
 
 Arrive at an ensemble predictor that gives the least RMSE. This is an iterative approach where each predictor in the ensemble is optimized for the least RMSE for combining into an ensemble. Several alternative approaches including NN and SVD were discarded for suboptimal performance. Final choice was a combination of Linear predictor with first order polynomials for rigidity, bias over variance. Random forest performed well over NN and SVD on this data in combination with Boruta feature selector.
 
-# Result Rank: 57 (Top10%)
+# Result Rank: 59/2527 (Top10%)
+
